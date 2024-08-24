@@ -8,7 +8,7 @@ This documentation should contain all the information you need for using the Ori
 
 # General information
 - Data for rendering Elemental Skills and Elemental Bursts is **additive**, meaning that removing **Origins: Genshin** or using a datapack that uses the mod should **not** cause any errors or conflicts! 
-- This mod is required on both the Client and Server due to how Calio (Origins' serialization library) handles data, the mod needs to be on the server-side to add the data necessary for rendering Elemental Skills and Bursts. If this mod is not on the server, then you can't have your Elemental Skills or Bursts rendered, even if you have the mod on the client!
+- This mod is required on both the Client and Server due to how Calio (Origins' serialization library) handles data. Therefore, the mod needs to be on the server-side to add the data necessary for rendering Elemental Skills and Bursts. If this mod is not on the server, then you can't have your Elemental Skills or Bursts rendered, even if you have the mod on the client!
 
 Origins Mod: [CurseForge](https://www.curseforge.com/minecraft/mc-mods/origins) or [Modrinth](https://modrinth.com/mod/origins)  
 [Origins Documentation](https://origins.readthedocs.io/en/latest/)
