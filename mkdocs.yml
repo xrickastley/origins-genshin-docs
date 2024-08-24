@@ -1,0 +1,27 @@
+site_name: "Origins: Genshin Documentation"
+nav:
+  - Home: index.md
+  - Datapack Guides:
+    - Defining an Elemental Burst: guides/elemental_burst.md
+    - Defining an Elemental Skill: guides/elemental_skill.md
+  - JSON:
+    - Origin JSON (Overwrite): json/origin.md
+  - General Types:
+    - Power Types: types/power_types.md
+    - Data Types: types/data_types.md
+  - Miscellaneous:
+    - Sprites: misc/sprites.md
+
+theme: readthedocs
+markdown_extensions:
+  - toc:
+      separator: "_"
+  - admonition
+plugins:
+  - search
+  - autorefs
+  - alias
+  - categories
+extra_css:
+  - styles/style.css
+  - styles/rtd_dark.css
