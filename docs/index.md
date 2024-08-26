@@ -6,7 +6,7 @@ Origins: Genshin is a Origin addon developed for Fabric. It adds Genshin-styled 
 
 This documentation should contain all the information you need for using the Origins: Genshin mod.
 
-Modrinth link: https://origins-genshin.readthedocs.io/en/latest/
+Modrinth link: [https://modrinth.com/mod/origins-genshin](https://modrinth.com/mod/origins-genshin)
 
 # General information
 - Data for rendering Elemental Skills and Elemental Bursts is **additive**, meaning that removing **Origins: Genshin** or using a datapack that uses the mod should **not** cause any errors or conflicts! 
