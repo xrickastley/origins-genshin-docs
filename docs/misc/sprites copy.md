@@ -7,7 +7,7 @@
 	All assets here were extracted automatically. If there is any errors with the name, you may open up an issue.
 
 | Character           | Skill Name                                                                                         | Sprite Location                                                        |
-|---------------------|----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| --------------------| ---------------------------------------------------------------------------------------------------| ---------------------------------------------------------------------  |
 | Albedo              | Elemental Skill ![file](../img/skills/albedo/elemental_skill.png)                                  | `origins-genshin:skills/albedo/elemental_skill.png`                    |
 | Albedo              | Elemental Burst ![file](../img/skills/albedo/elemental_burst.png)                                  | `origins-genshin:skills/albedo/elemental_burst.png`                    |
 | Albedo              | 1st Ascension Passive ![file](../img/skills/albedo/passive_a1.png)                                 | `origins-genshin:skills/albedo/passive_a1.png`                         |
@@ -273,7 +273,8 @@
 | Freminet            | Constellation 4 ![file](../img/skills/freminet/constellation_4.png)                                | `origins-genshin:skills/freminet/constellation_4.png`                  |
 | Freminet            | Constellation 5 ![file](../img/skills/freminet/constellation_5.png)                                | `origins-genshin:skills/freminet/constellation_5.png`                  |
 | Freminet            | Constellation 6 ![file](../img/skills/freminet/constellation_6.png)                                | `origins-genshin:skills/freminet/constellation_6.png`                  |
-| Furina              | Elemental Skill ![file](../img/skills/furina/elemental_skill.png)                                  | `origins-genshin:skills/furina/elemental_skill.png`                    |
+| Furina              | Elemental Skill Ousia ![file](../img/skills/furina/elemental_skill_ousia.png)                      | `origins-genshin:skills/furina/elemental_skill_ousia.png`              |
+| Furina              | Elemental Skill Pneuma ![file](../img/skills/furina/elemental_skill_pneuma.png)                    | `origins-genshin:skills/furina/elemental_skill_pneuma.png`             |
 | Furina              | Elemental Burst ![file](../img/skills/furina/elemental_burst.png)                                  | `origins-genshin:skills/furina/elemental_burst.png`                    |
 | Furina              | 1st Ascension Passive ![file](../img/skills/furina/passive_a1.png)                                 | `origins-genshin:skills/furina/passive_a1.png`                         |
 | Furina              | 4th Ascension Passive ![file](../img/skills/furina/passive_a4.png)                                 | `origins-genshin:skills/furina/passive_a4.png`                         |
@@ -324,28 +325,28 @@
 | Heizou              | Constellation 4 ![file](../img/skills/heizou/constellation_4.png)                                  | `origins-genshin:skills/heizou/constellation_4.png`                    |
 | Heizou              | Constellation 5 ![file](../img/skills/heizou/constellation_5.png)                                  | `origins-genshin:skills/heizou/constellation_5.png`                    |
 | Heizou              | Constellation 6 ![file](../img/skills/heizou/constellation_6.png)                                  | `origins-genshin:skills/heizou/constellation_6.png`                    |
-| Hu Tao              | Elemental Skill ![file](../img/skills/hutao/elemental_skill.png)                                   | `origins-genshin:skills/hutao/elemental_skill.png`                     |
-| Hu Tao              | Elemental Burst ![file](../img/skills/hutao/elemental_burst.png)                                   | `origins-genshin:skills/hutao/elemental_burst.png`                     |
-| Hu Tao              | 1st Ascension Passive ![file](../img/skills/hutao/passive_a1.png)                                  | `origins-genshin:skills/hutao/passive_a1.png`                          |
-| Hu Tao              | 4th Ascension Passive ![file](../img/skills/hutao/passive_a4.png)                                  | `origins-genshin:skills/hutao/passive_a4.png`                          |
-| Hu Tao              | Utility Passive ![file](../img/skills/hutao/passive_utility.png)                                   | `origins-genshin:skills/hutao/passive_utility.png`                     |
-| Hu Tao              | Constellation 1 ![file](../img/skills/hutao/constellation_1.png)                                   | `origins-genshin:skills/hutao/constellation_1.png`                     |
-| Hu Tao              | Constellation 2 ![file](../img/skills/hutao/constellation_2.png)                                   | `origins-genshin:skills/hutao/constellation_2.png`                     |
-| Hu Tao              | Constellation 3 ![file](../img/skills/hutao/constellation_3.png)                                   | `origins-genshin:skills/hutao/constellation_3.png`                     |
-| Hu Tao              | Constellation 4 ![file](../img/skills/hutao/constellation_4.png)                                   | `origins-genshin:skills/hutao/constellation_4.png`                     |
-| Hu Tao              | Constellation 5 ![file](../img/skills/hutao/constellation_5.png)                                   | `origins-genshin:skills/hutao/constellation_5.png`                     |
-| Hu Tao              | Constellation 6 ![file](../img/skills/hutao/constellation_6.png)                                   | `origins-genshin:skills/hutao/constellation_6.png`                     |
-| Arataki Itto        | Elemental Skill ![file](../img/skills/itto/elemental_skill.png)                                    | `origins-genshin:skills/itto/elemental_skill.png`                      |
-| Arataki Itto        | Elemental Burst ![file](../img/skills/itto/elemental_burst.png)                                    | `origins-genshin:skills/itto/elemental_burst.png`                      |
-| Arataki Itto        | 1st Ascension Passive ![file](../img/skills/itto/passive_a1.png)                                   | `origins-genshin:skills/itto/passive_a1.png`                           |
-| Arataki Itto        | 4th Ascension Passive ![file](../img/skills/itto/passive_a4.png)                                   | `origins-genshin:skills/itto/passive_a4.png`                           |
-| Arataki Itto        | Utility Passive ![file](../img/skills/itto/passive_utility.png)                                    | `origins-genshin:skills/itto/passive_utility.png`                      |
-| Arataki Itto        | Constellation 1 ![file](../img/skills/itto/constellation_1.png)                                    | `origins-genshin:skills/itto/constellation_1.png`                      |
-| Arataki Itto        | Constellation 2 ![file](../img/skills/itto/constellation_2.png)                                    | `origins-genshin:skills/itto/constellation_2.png`                      |
-| Arataki Itto        | Constellation 3 ![file](../img/skills/itto/constellation_3.png)                                    | `origins-genshin:skills/itto/constellation_3.png`                      |
-| Arataki Itto        | Constellation 4 ![file](../img/skills/itto/constellation_4.png)                                    | `origins-genshin:skills/itto/constellation_4.png`                      |
-| Arataki Itto        | Constellation 5 ![file](../img/skills/itto/constellation_5.png)                                    | `origins-genshin:skills/itto/constellation_5.png`                      |
-| Arataki Itto        | Constellation 6 ![file](../img/skills/itto/constellation_6.png)                                    | `origins-genshin:skills/itto/constellation_6.png`                      |
+| Hutao               | Elemental Skill ![file](../img/skills/hutao/elemental_skill.png)                                   | `origins-genshin:skills/hutao/elemental_skill.png`                     |
+| Hutao               | Elemental Burst ![file](../img/skills/hutao/elemental_burst.png)                                   | `origins-genshin:skills/hutao/elemental_burst.png`                     |
+| Hutao               | 1st Ascension Passive ![file](../img/skills/hutao/passive_a1.png)                                  | `origins-genshin:skills/hutao/passive_a1.png`                          |
+| Hutao               | 4th Ascension Passive ![file](../img/skills/hutao/passive_a4.png)                                  | `origins-genshin:skills/hutao/passive_a4.png`                          |
+| Hutao               | Utility Passive ![file](../img/skills/hutao/passive_utility.png)                                   | `origins-genshin:skills/hutao/passive_utility.png`                     |
+| Hutao               | Constellation 1 ![file](../img/skills/hutao/constellation_1.png)                                   | `origins-genshin:skills/hutao/constellation_1.png`                     |
+| Hutao               | Constellation 2 ![file](../img/skills/hutao/constellation_2.png)                                   | `origins-genshin:skills/hutao/constellation_2.png`                     |
+| Hutao               | Constellation 3 ![file](../img/skills/hutao/constellation_3.png)                                   | `origins-genshin:skills/hutao/constellation_3.png`                     |
+| Hutao               | Constellation 4 ![file](../img/skills/hutao/constellation_4.png)                                   | `origins-genshin:skills/hutao/constellation_4.png`                     |
+| Hutao               | Constellation 5 ![file](../img/skills/hutao/constellation_5.png)                                   | `origins-genshin:skills/hutao/constellation_5.png`                     |
+| Hutao               | Constellation 6 ![file](../img/skills/hutao/constellation_6.png)                                   | `origins-genshin:skills/hutao/constellation_6.png`                     |
+| Itto                | Elemental Skill ![file](../img/skills/itto/elemental_skill.png)                                    | `origins-genshin:skills/itto/elemental_skill.png`                      |
+| Itto                | Elemental Burst ![file](../img/skills/itto/elemental_burst.png)                                    | `origins-genshin:skills/itto/elemental_burst.png`                      |
+| Itto                | 1st Ascension Passive ![file](../img/skills/itto/passive_a1.png)                                   | `origins-genshin:skills/itto/passive_a1.png`                           |
+| Itto                | 4th Ascension Passive ![file](../img/skills/itto/passive_a4.png)                                   | `origins-genshin:skills/itto/passive_a4.png`                           |
+| Itto                | Utility Passive ![file](../img/skills/itto/passive_utility.png)                                    | `origins-genshin:skills/itto/passive_utility.png`                      |
+| Itto                | Constellation 1 ![file](../img/skills/itto/constellation_1.png)                                    | `origins-genshin:skills/itto/constellation_1.png`                      |
+| Itto                | Constellation 2 ![file](../img/skills/itto/constellation_2.png)                                    | `origins-genshin:skills/itto/constellation_2.png`                      |
+| Itto                | Constellation 3 ![file](../img/skills/itto/constellation_3.png)                                    | `origins-genshin:skills/itto/constellation_3.png`                      |
+| Itto                | Constellation 4 ![file](../img/skills/itto/constellation_4.png)                                    | `origins-genshin:skills/itto/constellation_4.png`                      |
+| Itto                | Constellation 5 ![file](../img/skills/itto/constellation_5.png)                                    | `origins-genshin:skills/itto/constellation_5.png`                      |
+| Itto                | Constellation 6 ![file](../img/skills/itto/constellation_6.png)                                    | `origins-genshin:skills/itto/constellation_6.png`                      |
 | Jean                | Elemental Skill ![file](../img/skills/jean/elemental_skill.png)                                    | `origins-genshin:skills/jean/elemental_skill.png`                      |
 | Jean                | Elemental Burst ![file](../img/skills/jean/elemental_burst.png)                                    | `origins-genshin:skills/jean/elemental_burst.png`                      |
 | Jean                | 1st Ascension Passive ![file](../img/skills/jean/passive_a1.png)                                   | `origins-genshin:skills/jean/passive_a1.png`                           |
@@ -356,6 +357,17 @@
 | Jean                | Constellation 4 ![file](../img/skills/jean/constellation_4.png)                                    | `origins-genshin:skills/jean/constellation_4.png`                      |
 | Jean                | Constellation 5 ![file](../img/skills/jean/constellation_5.png)                                    | `origins-genshin:skills/jean/constellation_5.png`                      |
 | Jean                | Constellation 6 ![file](../img/skills/jean/constellation_6.png)                                    | `origins-genshin:skills/jean/constellation_6.png`                      |
+| Kachina             | Elemental Skill ![file](../img/skills/kachina/elemental_skill.png)                                 | `origins-genshin:skills/kachina/elemental_skill.png`                   |
+| Kachina             | Elemental Burst ![file](../img/skills/kachina/elemental_burst.png)                                 | `origins-genshin:skills/kachina/elemental_burst.png`                   |
+| Kachina             | 1st Ascension Passive ![file](../img/skills/kachina/passive_a1.png)                                | `origins-genshin:skills/kachina/passive_a1.png`                        |
+| Kachina             | 4th Ascension Passive ![file](../img/skills/kachina/passive_a4.png)                                | `origins-genshin:skills/kachina/passive_a4.png`                        |
+| Kachina             | Night Realm's Gift Passive ![file](../img/skills/kachina/passive_night_realm.png)                  | `origins-genshin:skills/kachina/passive_night_realm.png`               |
+| Kachina             | Constellation 1 ![file](../img/skills/kachina/constellation_1.png)                                 | `origins-genshin:skills/kachina/constellation_1.png`                   |
+| Kachina             | Constellation 2 ![file](../img/skills/kachina/constellation_2.png)                                 | `origins-genshin:skills/kachina/constellation_2.png`                   |
+| Kachina             | Constellation 3 ![file](../img/skills/kachina/constellation_3.png)                                 | `origins-genshin:skills/kachina/constellation_3.png`                   |
+| Kachina             | Constellation 4 ![file](../img/skills/kachina/constellation_4.png)                                 | `origins-genshin:skills/kachina/constellation_4.png`                   |
+| Kachina             | Constellation 5 ![file](../img/skills/kachina/constellation_5.png)                                 | `origins-genshin:skills/kachina/constellation_5.png`                   |
+| Kachina             | Constellation 6 ![file](../img/skills/kachina/constellation_6.png)                                 | `origins-genshin:skills/kachina/constellation_6.png`                   |
 | Kaeya               | Elemental Skill ![file](../img/skills/kaeya/elemental_skill.png)                                   | `origins-genshin:skills/kaeya/elemental_skill.png`                     |
 | Kaeya               | Elemental Burst ![file](../img/skills/kaeya/elemental_burst.png)                                   | `origins-genshin:skills/kaeya/elemental_burst.png`                     |
 | Kaeya               | 1st Ascension Passive ![file](../img/skills/kaeya/passive_a1.png)                                  | `origins-genshin:skills/kaeya/passive_a1.png`                          |
@@ -396,6 +408,17 @@
 | Keqing              | Constellation 4 ![file](../img/skills/keqing/constellation_4.png)                                  | `origins-genshin:skills/keqing/constellation_4.png`                    |
 | Keqing              | Constellation 5 ![file](../img/skills/keqing/constellation_5.png)                                  | `origins-genshin:skills/keqing/constellation_5.png`                    |
 | Keqing              | Constellation 6 ![file](../img/skills/keqing/constellation_6.png)                                  | `origins-genshin:skills/keqing/constellation_6.png`                    |
+| Kinich              | Elemental Skill ![file](../img/skills/kinich/elemental_skill.png)                                  | `origins-genshin:skills/kinich/elemental_skill.png`                    |
+| Kinich              | Elemental Burst ![file](../img/skills/kinich/elemental_burst.png)                                  | `origins-genshin:skills/kinich/elemental_burst.png`                    |
+| Kinich              | 1st Ascension Passive ![file](../img/skills/kinich/passive_a1.png)                                 | `origins-genshin:skills/kinich/passive_a1.png`                         |
+| Kinich              | 4th Ascension Passive ![file](../img/skills/kinich/passive_a4.png)                                 | `origins-genshin:skills/kinich/passive_a4.png`                         |
+| Kinich              | Night Realm's Gift Passive ![file](../img/skills/kinich/passive_night_realm.png)                   | `origins-genshin:skills/kinich/passive_night_realm.png`                |
+| Kinich              | Constellation 1 ![file](../img/skills/kinich/constellation_1.png)                                  | `origins-genshin:skills/kinich/constellation_1.png`                    |
+| Kinich              | Constellation 2 ![file](../img/skills/kinich/constellation_2.png)                                  | `origins-genshin:skills/kinich/constellation_2.png`                    |
+| Kinich              | Constellation 3 ![file](../img/skills/kinich/constellation_3.png)                                  | `origins-genshin:skills/kinich/constellation_3.png`                    |
+| Kinich              | Constellation 4 ![file](../img/skills/kinich/constellation_4.png)                                  | `origins-genshin:skills/kinich/constellation_4.png`                    |
+| Kinich              | Constellation 5 ![file](../img/skills/kinich/constellation_5.png)                                  | `origins-genshin:skills/kinich/constellation_5.png`                    |
+| Kinich              | Constellation 6 ![file](../img/skills/kinich/constellation_6.png)                                  | `origins-genshin:skills/kinich/constellation_6.png`                    |
 | Kirara              | Elemental Skill ![file](../img/skills/kirara/elemental_skill.png)                                  | `origins-genshin:skills/kirara/elemental_skill.png`                    |
 | Kirara              | Elemental Burst ![file](../img/skills/kirara/elemental_burst.png)                                  | `origins-genshin:skills/kirara/elemental_burst.png`                    |
 | Kirara              | 1st Ascension Passive ![file](../img/skills/kirara/passive_a1.png)                                 | `origins-genshin:skills/kirara/passive_a1.png`                         |
@@ -498,6 +521,17 @@
 | Mona                | Constellation 4 ![file](../img/skills/mona/constellation_4.png)                                    | `origins-genshin:skills/mona/constellation_4.png`                      |
 | Mona                | Constellation 5 ![file](../img/skills/mona/constellation_5.png)                                    | `origins-genshin:skills/mona/constellation_5.png`                      |
 | Mona                | Constellation 6 ![file](../img/skills/mona/constellation_6.png)                                    | `origins-genshin:skills/mona/constellation_6.png`                      |
+| Mualani             | Elemental Skill ![file](../img/skills/mualani/elemental_skill.png)                                 | `origins-genshin:skills/mualani/elemental_skill.png`                   |
+| Mualani             | Elemental Burst ![file](../img/skills/mualani/elemental_burst.png)                                 | `origins-genshin:skills/mualani/elemental_burst.png`                   |
+| Mualani             | 1st Ascension Passive ![file](../img/skills/mualani/passive_a1.png)                                | `origins-genshin:skills/mualani/passive_a1.png`                        |
+| Mualani             | 4th Ascension Passive ![file](../img/skills/mualani/passive_a4.png)                                | `origins-genshin:skills/mualani/passive_a4.png`                        |
+| Mualani             | Night Realm's Gift Passive ![file](../img/skills/mualani/passive_night_realm.png)                  | `origins-genshin:skills/mualani/passive_night_realm.png`               |
+| Mualani             | Constellation 1 ![file](../img/skills/mualani/constellation_1.png)                                 | `origins-genshin:skills/mualani/constellation_1.png`                   |
+| Mualani             | Constellation 2 ![file](../img/skills/mualani/constellation_2.png)                                 | `origins-genshin:skills/mualani/constellation_2.png`                   |
+| Mualani             | Constellation 3 ![file](../img/skills/mualani/constellation_3.png)                                 | `origins-genshin:skills/mualani/constellation_3.png`                   |
+| Mualani             | Constellation 4 ![file](../img/skills/mualani/constellation_4.png)                                 | `origins-genshin:skills/mualani/constellation_4.png`                   |
+| Mualani             | Constellation 5 ![file](../img/skills/mualani/constellation_5.png)                                 | `origins-genshin:skills/mualani/constellation_5.png`                   |
+| Mualani             | Constellation 6 ![file](../img/skills/mualani/constellation_6.png)                                 | `origins-genshin:skills/mualani/constellation_6.png`                   |
 | Nahida              | Elemental Skill ![file](../img/skills/nahida/elemental_skill.png)                                  | `origins-genshin:skills/nahida/elemental_skill.png`                    |
 | Nahida              | Elemental Burst ![file](../img/skills/nahida/elemental_burst.png)                                  | `origins-genshin:skills/nahida/elemental_burst.png`                    |
 | Nahida              | 1st Ascension Passive ![file](../img/skills/nahida/passive_a1.png)                                 | `origins-genshin:skills/nahida/passive_a1.png`                         |
@@ -757,6 +791,18 @@
 | Xiao                | Constellation 4 ![file](../img/skills/xiao/constellation_4.png)                                    | `origins-genshin:skills/xiao/constellation_4.png`                      |
 | Xiao                | Constellation 5 ![file](../img/skills/xiao/constellation_5.png)                                    | `origins-genshin:skills/xiao/constellation_5.png`                      |
 | Xiao                | Constellation 6 ![file](../img/skills/xiao/constellation_6.png)                                    | `origins-genshin:skills/xiao/constellation_6.png`                      |
+| Xilonen             | Elemental Skill ![file](../img/skills/xilonen/elemental_skill.png)                                 | `origins-genshin:skills/xilonen/elemental_skill.png`                   |
+| Xilonen             | Elemental Burst ![file](../img/skills/xilonen/elemental_burst.png)                                 | `origins-genshin:skills/xilonen/elemental_burst.png`                   |
+| Xilonen             | 1st Ascension Passive ![file](../img/skills/xilonen/passive_a1.png)                                | `origins-genshin:skills/xilonen/passive_a1.png`                        |
+| Xilonen             | 4th Ascension Passive ![file](../img/skills/xilonen/passive_a4.png)                                | `origins-genshin:skills/xilonen/passive_a4.png`                        |
+| Xilonen             | Night Realm's Gift Passive ![file](../img/skills/xilonen/passive_night_realm.png)                  | `origins-genshin:skills/xilonen/passive_night_realm.png`               |
+| Xilonen             | Utility Passive ![file](../img/skills/xilonen/passive_utility.png)                                 | `origins-genshin:skills/xilonen/passive_utility.png`                   |
+| Xilonen             | Constellation 1 ![file](../img/skills/xilonen/constellation_1.png)                                 | `origins-genshin:skills/xilonen/constellation_1.png`                   |
+| Xilonen             | Constellation 2 ![file](../img/skills/xilonen/constellation_2.png)                                 | `origins-genshin:skills/xilonen/constellation_2.png`                   |
+| Xilonen             | Constellation 3 ![file](../img/skills/xilonen/constellation_3.png)                                 | `origins-genshin:skills/xilonen/constellation_3.png`                   |
+| Xilonen             | Constellation 4 ![file](../img/skills/xilonen/constellation_4.png)                                 | `origins-genshin:skills/xilonen/constellation_4.png`                   |
+| Xilonen             | Constellation 5 ![file](../img/skills/xilonen/constellation_5.png)                                 | `origins-genshin:skills/xilonen/constellation_5.png`                   |
+| Xilonen             | Constellation 6 ![file](../img/skills/xilonen/constellation_6.png)                                 | `origins-genshin:skills/xilonen/constellation_6.png`                   |
 | Xingqiu             | Elemental Skill ![file](../img/skills/xingqiu/elemental_skill.png)                                 | `origins-genshin:skills/xingqiu/elemental_skill.png`                   |
 | Xingqiu             | Elemental Burst ![file](../img/skills/xingqiu/elemental_burst.png)                                 | `origins-genshin:skills/xingqiu/elemental_burst.png`                   |
 | Xingqiu             | 1st Ascension Passive ![file](../img/skills/xingqiu/passive_a1.png)                                | `origins-genshin:skills/xingqiu/passive_a1.png`                        |
@@ -871,6 +917,7 @@
 | Passives            | Mondstadt Expedition ![file](../img/skills/passives/mondstadt_expedition.png)                      | `origins-genshin:skills/passives/mondstadt_expedition.png`             |
 | Passives            | Mondstadt Specialty Display ![file](../img/skills/passives/mondstadt_specialty_display.png)        | `origins-genshin:skills/passives/mondstadt_specialty_display.png`      |
 | Passives            | Movement Speed ![file](../img/skills/passives/movement_speed.png)                                  | `origins-genshin:skills/passives/movement_speed.png`                   |
+| Passives            | Natlan Speciality Display ![file](../img/skills/passives/natlan_speciality_display.png)            | `origins-genshin:skills/passives/natlan_speciality_display.png`        |
 | Passives            | Ore Display ![file](../img/skills/passives/ore_display.png)                                        | `origins-genshin:skills/passives/ore_display.png`                      |
 | Passives            | Polearm Material Refund ![file](../img/skills/passives/polearm_material_refund.png)                | `origins-genshin:skills/passives/polearm_material_refund.png`          |
 | Passives            | Potion Material Refund ![file](../img/skills/passives/potion_material_refund.png)                  | `origins-genshin:skills/passives/potion_material_refund.png`           |
