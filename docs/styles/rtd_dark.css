@@ -7,13 +7,23 @@
  * @version       0.20170529055029
  *
  * Modified by Aloïs Dreyfus: 20190726-1417
+ * Modified by _xRickAstley : 20250827-1155
  */
 a:visited {
 	color: #bf84d8;
 }
 
+a {
+	color: #e1b489
+}
+
+a:hover {
+	color: #f5e7da;
+	text-decoration: underline;
+}
+
 pre {
-	background-color: #2d2d2d; !important;
+	background-color: #2d2d2d !important;
 }
 
 .wy-nav-content {
@@ -79,3 +89,14 @@ code.literal {
 
 .highlight .m { color: inherit } /* Literal.Number */
 .highlight .nv { color: #3a7ca8 } /* Name.Variable */
+
+span[id*=MathJax-Span] {
+    color: aliceblue;
+}
+
+.rst-content code {
+	background-color: #646464;
+	border-color: #646464;
+	border-radius: 4px;
+	color: rgb(85, 165, 217);
+}
