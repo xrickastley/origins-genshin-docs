@@ -1,10 +1,10 @@
 # Elemental Skill
 
-[Data Type](../types/data_types.md)
+[Data Type](../data_types.md)
 
 An [Object](<https://origins.readthedocs.io/en/latest/types/data_types/object/>) used to specify an "Elemental Skill" for a power under the [Active Self](../power_types/active_self.md) power type.
 
-## Fields
+### Fields
 | Field   | Type | Default    | Description |
 |---------|------|------------|-------------|
 |`show_cooldown`    |[Boolean](https://origins.readthedocs.io/en/latest/types/data_types/boolean/)|`false`|Whether or not the Elemental Skill's cooldown is rendered. Changing this will only affect the timer text.|

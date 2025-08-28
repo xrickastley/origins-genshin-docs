@@ -1,10 +1,10 @@
 # Elemental Burst Icon
 
-[Data Type](../types/data_types.md)
+[Data Type](../data_types.md)
 
 An [Object](<https://origins.readthedocs.io/en/latest/types/data_types/object/>) used to specify an icon for an [Elemental Burst](./elemental_burst.md).
 
-## Fields
+### Fields
 | Field   | Type | Default    | Description |
 |---------|------|------------|-------------|
 |`icon`           |[Identifier](<https://origins.readthedocs.io/en/latest/types/data_types/identifier/>)| |The path to the file that contains the Elemental Burst icon.
@@ -32,6 +32,6 @@ An [Object](<https://origins.readthedocs.io/en/latest/types/data_types/object/>)
 This is an example of an Elemental Skill Icon using the `origins-genshin:skills/elemental_burst_enhanced.png` texture that is only shown when the player's `origins:my_example_resource` value is greater than `6`.
 
 ## Images
-![Elemental Burst](../img/elemental_burst.png)
+![Elemental Burst](../../img/elemental_burst.png)
 
 *Anatomy of an Elemental Burst Icon.*

@@ -1,14 +1,14 @@
 # Defining an Elemental Burst for an Active Self power
 
-**Origins: Genshin** only supports creating an Elemental Burst out of the [Active Self (Power Type)](../power_types/active_self.md). This is because in the [actual game](https://genshin-impact.fandom.com/wiki/Elemental_Burst), you can only use these when clicking `Q` (or whatever key you binded it to)!
+**Origins: Genshin** only supports creating an Elemental Burst out of the [Active Self (Power Type)](../types/power_types/active_self.md). This is because in the [actual game](https://genshin-impact.fandom.com/wiki/Elemental_Burst), you can only use these when clicking `Q` (or whatever key you binded it to)!
 
 An Elemental Burst, in Genshin, is considered as your most powerful ability. You may know this as an "Ultimate" in other games.
 
 ## Tutorial
 
-**Important:** this example guides you through defining an Elemental Burst for the [Active Self (Power Type)](../power_types/active_self.md), as well as specific use cases that could be helpful in the future. It is required for you to have read and understood [Defining a Power in JSON](https://origins.readthedocs.io/en/latest/guides/data/define_power/) first, as well as looked through [Active Self (Power Type)](https://origins.readthedocs.io/en/latest/types/power_types/active_self/)!
+**Important:** this example guides you through defining an Elemental Burst for the [Active Self (Power Type)](../types/power_types/active_self.md), as well as specific use cases that could be helpful in the future. It is required for you to have read and understood [Defining a Power in JSON](https://origins.readthedocs.io/en/latest/guides/data/define_power/) first, as well as looked through [Active Self (Power Type)](https://origins.readthedocs.io/en/latest/types/power_types/active_self/)!
 
-To declare an [Active Self (Power Type)](../power_types/active_self.md) power as an [Elemental Burst](../data_types/elemental_burst.md), just add the `"elemental_burst"` field.
+To declare an [Active Self (Power Type)](../types/power_types/active_self.md) power as an [Elemental Burst](../types/data_types/elemental_burst.md), just add the `"elemental_burst"` field.
 
 Let's create a power named `awesome_power.json` inside the `<namespace>/powers` folder. The `<namespace>` part is basically the namespace of your datapack (the ID that specifies your datapack from others). Since this is a tutorial, I'll use `tutorial`, however you may use any namespace you want. The full path for this power for me would be `data/tutorial/powers/awesome_power.json`.
 

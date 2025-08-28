@@ -1,6 +1,6 @@
 # Active Self (Overwrite)
 
-[Power Type](../types/power_types.md)
+[Power Type](../power_types.md)
 
 Executes an [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types/) on the entity that has the power upon pressing the specified [Key](https://origins.readthedocs.io/en/latest/types/data_types/key/).
 
@@ -9,7 +9,7 @@ Type ID: `origins:active_self`
 !!! warning 
     This JSON object is originally an **Origins/Apoli** JSON field, but has been modified by **Origins: Genshin** to add extra functionality to it. You can find the new fields added along with the old fields below.
 
-## Fields
+### Fields
 | Field   | Type | Default    | Description |
 |---------|------|------------|-------------|
 |`entity_action`|[Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types/)| |The action to execute on the player.

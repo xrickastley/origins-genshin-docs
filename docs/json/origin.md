@@ -6,7 +6,7 @@ Origin JSON files need to be placed inside the `data/<namespace>/origins` folder
 !!! warning 
     This JSON object is originally an **Origins/Apoli** JSON field, but has been modified by **Origins: Genshin** to add extra functionality to it. You can find the new fields added along with the old fields below.
 
-## Fields
+### Fields
 | Field   | Type | Default    | Description |
 |---------|------|------------|-------------|
 |`powers`           |[Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Identifiers](https://origins.readthedocs.io/en/latest/types/data_types/identifier/)|*optional*|The namespace and IDs of the powers this origin should have.|
@@ -18,8 +18,8 @@ Origin JSON files need to be placed inside the `data/<namespace>/origins` folder
 |`description`      |[Text Component](https://origins.readthedocs.io/en/latest/types/data_types/text_component/)|*optional*|The description of the origin.|
 |`upgrades`         |[Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Upgrades](https://origins.readthedocs.io/en/latest/json/upgrade/)|*optional*|A list of upgrades for this origin, specifying which advancements turn this origin into which other origin.|
 |`loading_priority` |[Integer](<https://origins.readthedocs.io/en/latest/types/data_types/integer/>)|`0`|Specifies when this origin is loaded. Higher numbers mean it's loaded later, which means it will override those with lower loading priorities which share the same ID.|
-|`elemental_skill`|[Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/)|*optional*|The namespace and ID of an [Active Self](../power_types/active_self.md) power that is declared as an [Elemental Skill](../data_types/elemental_skill.md).|
-|`elemental_burst`|[Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/)|*optional*|The namespace and ID of an [Active Self](../power_types/active_self.md) power that is declared as an [Elemental Burst](../data_types/elemental_burst.md)|
+|`elemental_skill`|[Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/)|*optional*|The namespace and ID of an [Active Self](../types/power_types/active_self.md) power that is declared as an [Elemental Skill](../types/data_types/elemental_skill.md).|
+|`elemental_burst`|[Identifier](https://origins.readthedocs.io/en/latest/types/data_types/identifier/)|*optional*|The namespace and ID of an [Active Self](../types/power_types/active_self.md) power that is declared as an [Elemental Burst](../types/data_types/elemental_burst.md)|
 
 ## Examples
 ```json

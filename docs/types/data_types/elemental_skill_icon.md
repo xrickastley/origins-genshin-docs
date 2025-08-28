@@ -1,10 +1,10 @@
 # Elemental Skill Icon
 
-[Data Type](../types/data_types.md)
+[Data Type](../data_types.md)
 
 An [Object](<https://origins.readthedocs.io/en/latest/types/data_types/object/>) used to specify an icon for an [Elemental Skill](./elemental_skill.md).
 
-## Fields
+### Fields
 | Field   | Type | Default    | Description |
 |---------|------|------------|-------------|
 |`icon`          |[Identifier](<https://origins.readthedocs.io/en/latest/types/data_types/identifier/>)| |The path to the file that contains the Elemental Skill icon.
@@ -27,11 +27,11 @@ An [Object](<https://origins.readthedocs.io/en/latest/types/data_types/object/>)
 This is an example of an Elemental Skill Icon using the `origins-genshin:skills/elemental_skill_enhanced.png` texture that is only shown when the player is sneaking.
 
 ## Images
-![Elemental Skill](../img/elemental_skill.png)
+![Elemental Skill](../../img/elemental_skill.png)
 
 *Anatomy of an Elemental Skill Icon.*
 
 
-![Elemental Skill with Charges](../img/elemental_skill_charges.png)
+![Elemental Skill with Charges](../../img/elemental_skill_charges.png)
 
 *Anatomy of an Elemental Skill Icon using the Charge Render.*
