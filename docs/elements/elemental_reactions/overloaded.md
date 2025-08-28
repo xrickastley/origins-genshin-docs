@@ -8,6 +8,9 @@ This reaction causes an explosion of power **3** and deals <span class="pyro">**
 
 Overloaded does not apply <span class="pyro">**Pyro**</span> to any targets hit, and therefore, cannot trigger any further elemental reactions.
 
+!!! tip
+	You can disable <span style="color: #fc7fa4">**Overloaded**</span> from destroying blocks by setting the `overloadedBlockDestruction` gamerule to `false`.
+
 <div align="center">
 	<video width="640" height="360" controls>
 		<source src="../../../media/overloaded.mp4" type="video/mp4">
