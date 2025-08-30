@@ -59,7 +59,7 @@ The Crystallize Shield **does not** apply it's effectiveness on the excess DMG.
 
 ### Internal Data
 
-Reaction Multiplier (Crystallize Shield Health): **6**
+Reaction Multiplier (Crystallize Shield Health): **6**  
 Reaction ID(s): 
 
 - `origins-genshin:crystallize_pyro` (triggered on the <span class="pyro">**Pyro**</span> aura)
