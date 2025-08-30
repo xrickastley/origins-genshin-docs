@@ -6,7 +6,7 @@ Crystallize is the [Elemental Reaction](../elemental_reactions.md) triggered whe
 
 Crystallize deals **no damage**. Instead, it generates a matching <span class="pyro">**Pyro**</span>, <span class="electro">**Electro**</span>, <span class="hydro">**Hydro**</span>, or <span class="cryo">**Cryo**</span> [Elemental Shard](#elemental-shard) in front of the entity that can be picked up to gain an Crystallize Shield of the corresponding element.
 
-~~*NOTE: Elemental Shards are still on the TODO list, and as such, do not exist in the mod yet. You can get a Crystallize Shield by using the `/eval <target> <element>` command*~~
+*<del>NOTE: Elemental Shards are still on the TODO list, and as such, do not exist in the mod yet. You can get a Crystallize Shield by using the `/eval <target> <element>` command</del>*
 
 The newest alpha has now added a Crystallize Shard entity, meaning that Crystallize Shields now generate with the reaction!
 
