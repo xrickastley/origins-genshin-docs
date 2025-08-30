@@ -10,6 +10,8 @@ Modrinth link: [https://modrinth.com/mod/origins-genshin](https://modrinth.com/m
 
 To gain access to the alpha version (the version this wiki is currently on), you may get yourself the **Origins: Genshin** Build Artifact from it's [GitHub Actions](https://github.com/xrickastley/origins-genshin/actions) tab!
 
+Simply click the latest one, scroll down to find "Artifacts" and then download the zip file, where you can find the alpha version in the zip!
+
 **© All rights reserved by HoYoverse. Other properties belong to their respective owners.**
 
 **THIS PROJECT IS NOT AFFILIATED WITH NEITHER HOYOVERSE NOR GENSHIN IMPACT.**
