@@ -164,7 +164,7 @@ This can be toggled with the `pyroFromFire` gamerule!
 	</video>
 </div>
 
-<br> <br>
+<br>
 
 When in water, <span class="hydro">**Hydro**</span> is automatically applied on you!
 
@@ -177,7 +177,7 @@ This can be toggled with the `hydroFromWater` gamerule!
 	</video>
 </div>
 
-<br> <br>
+<br>
 
 When struck by lightning, <span class="electro">**Electro**</span> is automatically applied on you!
 
