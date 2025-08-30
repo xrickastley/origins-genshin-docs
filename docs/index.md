@@ -14,3 +14,9 @@ Modrinth link: [https://modrinth.com/mod/origins-genshin](https://modrinth.com/m
 
 Origins Mod: [CurseForge](https://www.curseforge.com/minecraft/mc-mods/origins) or [Modrinth](https://modrinth.com/mod/origins)  
 [Origins Documentation](https://origins.readthedocs.io/en/latest/)
+
+## Psst!
+
+Something **big** is coming to **Origins: Genshin**!
+
+Want a sneak peek? You can look over [here](https://origins-genshin.readthedocs.io/en/2.0.0-alpha/)!
