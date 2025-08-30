@@ -14,6 +14,11 @@ By combining specific elements together, you're able to trigger [Elemental React
 
 When applying an element to an entity, it will decay over time, so there isn't any "infinite elemental application"!
 
+!!! tip
+	If you wish to disable elements ("I want to just use this mod for cool power rendering"), you may disable them with a gamerule! Simply do `/gamerule doElements false` and Elements will simply serve as colored DMG!
+
+	This gamerule doesn't nullify Elemental RES% and Elemental DMG Bonus% though, as they still apply even when elements is disabled!
+
 ## Elemental Gauge Theory
 
 !!! tip
@@ -143,3 +148,44 @@ Unlike **Genshin Impact**, Transformative Reactions (e.g. Overloaded, Supercondu
 The **Shatter** reaction is now triggered **if** the target receives **any** form of Geo DMG **or** when they are hit with an **Axe** or **Pickaxe**, as no concept of "Blunt Attacks" (a.k.a "Heavy Attacks") and "Poise" exists in Minecraft and are not easily addable with respect to other mods.
 
 Unlike **Genshin Impact**, Dendro DMG is **not limited** to **2** per **0.5s**. This means that an entity can take multiple amounts of Dendro DMG in a short timeframe without the other's being ignored.
+
+### Natural Element Sources
+
+In **Origins: Genshin**, there are a couple of ways you can be applied with an element **naturally**!
+
+When in or on fire, <span class="pyro">**Pyro**</span> is automatically applied on you!
+
+This can be toggled with the `pyroFromFire` gamerule!
+
+<div align="center">
+	<video width="640" height="360" controls>
+		<source src="../../../media/pyro_from_fire.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+</div>
+
+<br> <br>
+
+When in water, <span class="hydro">**Hydro**</span> is automatically applied on you!
+
+This can be toggled with the `hydroFromWater` gamerule!
+
+<div align="center">
+	<video width="640" height="360" controls>
+		<source src="../../../media/hydro_from_water.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+</div>
+
+<br> <br>
+
+When struck by lightning, <span class="electro">**Electro**</span> is automatically applied on you!
+
+This can be toggled with the `electroFromThunder` gamerule!
+
+<div align="center">
+	<video width="640" height="360" controls>
+		<source src="../../../media/electro_from_thunder.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+</div>

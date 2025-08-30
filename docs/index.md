@@ -4,7 +4,9 @@ Tired of your standard Hud Render cooldowns? Wish you could have a cooler and ni
 
 Origins: Genshin is a Origin addon developed for Fabric. It adds Genshin-styled rendering for your Origin powers, as well as a close recreation of Genshin's Elemental Combat system!
 
-This documentation should contain all the information you need for using the Origins: Genshin mod.
+~~This documentation should contain all the information you need for using the Origins: Genshin mod.~~
+
+This documentation is still incomplete as the mod is still in alpha, and is constantly updating! You may see assets that don't load, and that's perfectly normal and expected! , this documentation should contain most of the information you need for using the alpha version of the Origins: Genshin mod. Don't worry, as the documentation is updated from time to time as the mod updates!
 
 Modrinth link: [https://modrinth.com/mod/origins-genshin](https://modrinth.com/mod/origins-genshin)
 
