@@ -7,7 +7,7 @@ Melt is the [Elemental Reaction](../elemental_reactions.md) triggered when <span
 This reaction increases the damage of the <span class="pyro">**Pyro**</span> or <span class="cryo">**Cryo**</span> attack that triggered the reaction. If the reaction is triggered by a <span class="cryo">**Cryo**</span> attack, the damage is multiplied by **1.5**; If the reaction is triggered by a <span class="pyro">**Pyro**</span> attack, the damage is multiplied by **2**.
 
 <div align="center">
-	<video width="640" height="360" controls>
+	<video width="95%" height="auto" controls>
 		<source src="../../../media/melt.mp4" type="video/mp4">
 		Your browser does not support the video tag.
 	</video>

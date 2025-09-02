@@ -11,7 +11,7 @@ Crystallize deals **no damage**. Instead, it generates a matching <span class="p
 The newest alpha has now added a Crystallize Shard entity, meaning that Crystallize Shields now generate with the reaction!
 
 <div align="center">
-	<video width="640" height="360" controls>
+	<video width="95%" height="auto" controls>
 		<source src="../../../media/crystallize.mp4" type="video/mp4">
 		Your browser does not support the video tag.
 	</video>

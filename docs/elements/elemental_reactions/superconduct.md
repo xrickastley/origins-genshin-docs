@@ -9,7 +9,7 @@ This reaction deals <span class="cryo">**AoE Cryo DMG**</span> in a **5m** radiu
 Superconduct does not apply <span class="cryo">**Cryo**</span> to any targets hit, and therefore, cannot trigger any further elemental reactions.
 
 <div align="center">
-	<video width="640" height="360" controls>
+	<video width="95%" height="auto" controls>
 		<source src="../../../media/superconduct.mp4" type="video/mp4">
 		Your browser does not support the video tag.
 	</video>

@@ -11,7 +11,7 @@ When an entity with the <span class="cryo">**Freeze**</span> aura receives <span
 Inflicting <span class="pyro">**Pyro**</span>/<span class="electro">**Electro**</span>/<span class="hydro">**Anemo**</span> on a Freeze aura will consume it to trigger [Melt](./melt.md)/[Superconduct](./superconduct.md)/[Swirl](./swirl.md) respectively.
 
 <div align="center">
-	<video width="640" height="360" controls>
+	<video width="95%" height="auto" controls>
 		<source src="../../../media/frozen.mp4" type="video/mp4">
 		Your browser does not support the video tag.
 	</video>
@@ -30,7 +30,7 @@ Upon triggering Shatter, the <span class="cryo">**Freeze**</span> aura is remove
 Unlike **Genshin Impact**, Shatter has it's own *reaction text*!
 
 <div align="center">
-	<video width="640" height="360" controls>
+	<video width="95%" height="auto" controls>
 		<source src="../../../media/shatter.mp4" type="video/mp4">
 		Your browser does not support the video tag.
 	</video>

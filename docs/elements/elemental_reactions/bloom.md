@@ -11,7 +11,7 @@ This reaction produces a Dendro Core, which stays on the field for up to 6 secon
 Once a Dendro Core's duration expires, it explodes, dealing <span class="dendro">**AoE Dendro DMG**</span> in a **5m** radius to all entities.
 
 <div align="center">
-	<video width="640" height="360" controls>
+	<video width="95%" height="auto" controls>
 		<source src="../../../media/bloom.mp4" type="video/mp4">
 		Your browser does not support the video tag.
 	</video>
@@ -39,7 +39,7 @@ Hyperbloom is the [Elemental Reaction](../elemental_reactions.md) triggered on a
 This reaction transforms the Dendro Core into a Sprawling Shot that homes in on the closest enemy within a **24m** radius, dealing increased <span class="dendro">**AoE Dendro DMG**</span> in a **1m** radius. If no enemy can be found, it shoots up and disappears shortly after.
 
 <div align="center">
-	<video width="640" height="360" controls>
+	<video width="95%" height="auto" controls>
 		<source src="../../../media/hyperbloom.mp4" type="video/mp4">
 		Your browser does not support the video tag.
 	</video>
@@ -59,7 +59,7 @@ Burgeon is the [Elemental Reaction](../elemental_reactions.md) triggered on a [D
 This reaction prematurely explodes the Dendro Core, dealing increased <span class="dendro">**AoE Dendro DMG**</span> in a **5m** radius.
 
 <div align="center">
-	<video width="640" height="360" controls>
+	<video width="95%" height="auto" controls>
 		<source src="../../../media/burgeon.mp4" type="video/mp4">
 		Your browser does not support the video tag.
 	</video>

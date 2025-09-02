@@ -9,7 +9,7 @@ Quicken by itself deals **no damage**. Instead, it applies a <span class="quicke
 When an entity with the <span class="quicken">**Quicken**</span> aura receives <span class="dendro">**Dendro DMG**</span> or <span class="electro">**Electro DMG**</span>, the [**Spread**](#spread) and [**Aggravate**](#aggravate) reactions are triggered, respectively.
 
 <div align="center">
-	<video width="640" height="360" controls>
+	<video width="95%" height="auto" controls>
 		<source src="../../../media/quicken.mp4" type="video/mp4">
 		Your browser does not support the video tag.
 	</video>
@@ -28,7 +28,7 @@ Spread is the [Elemental Reaction](../elemental_reactions.md) triggered when <sp
 This reaction increases the damage of the <span class="dendro">**Dendro**</span> attack that triggered the reaction with an additive flat DMG bonus.
 
 <div align="center">
-	<video width="640" height="360" controls>
+	<video width="95%" height="auto" controls>
 		<source src="../../../media/spread.mp4" type="video/mp4">
 		Your browser does not support the video tag.
 	</video>
@@ -48,7 +48,7 @@ Aggravate is the [Elemental Reaction](../elemental_reactions.md) triggered when 
 This reaction increases the damage of the <span class="electro">**Electro**</span> attack that triggered the reaction with an additive flat DMG bonus.
 
 <div align="center">
-	<video width="640" height="360" controls>
+	<video width="95%" height="auto" controls>
 		<source src="../../../media/aggravate.mp4" type="video/mp4">
 		Your browser does not support the video tag.
 	</video>
