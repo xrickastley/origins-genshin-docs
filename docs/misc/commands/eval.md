@@ -9,6 +9,8 @@ The `/eval` command is used for testing and granting Crystallize Shields to enti
 !!! warning
 	This command only exists on the **Origins: Genshin** alpha version, and will be removed on the version release!
 
+    Command removed in alpha commit `84ef2a0`.
+
 ### Syntax:
 
 ```mcfunction

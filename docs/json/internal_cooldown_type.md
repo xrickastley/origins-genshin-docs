@@ -7,6 +7,11 @@ This is the format of a JSON file describing an **Internal Cooldown Type**. An *
 
 Internal Cooldown Type JSON files need to be placed inside the `data/<namespace>/internal_cooldowns` folder of your datapack. The said files can be referenced as `namespace:path/to/internal_cooldown_type` (`data/namespace/internal_cooldowns/path/to/internal_cooldown_type.json`).
 
+### Default Values
+
+- `origins-genshin:default` (2.5s/3 hits)
+- `origins-genshin:none` (0s/0 hits)
+
 ### Fields
 | Field				| Type | Default    | Description |
 |-------------------|------|------------|-------------|
