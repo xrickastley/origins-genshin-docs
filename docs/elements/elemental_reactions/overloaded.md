@@ -4,7 +4,7 @@
 
 Overloaded is the [Elemental Reaction](../elemental_reactions.md) triggered when <span class="electro">**Electro**</span> is applied onto an entity already affected by <span class="pyro">**Pyro**</span> or vice versa.
 
-This reaction causes an explosion of power **3** and deals <span class="pyro">**AoE Pyro DMG**</span> to all entities within the approximately **5m** explosion radius excluding the entity triggering the reaction.
+This reaction causes an explosion of power **2.5** and deals <span class="pyro">**AoE Pyro DMG**</span> to all entities within the approximately **5m** explosion radius excluding the entity triggering the reaction.
 
 Overloaded does not apply <span class="pyro">**Pyro**</span> to any targets hit, and therefore, cannot trigger any further elemental reactions.
 
