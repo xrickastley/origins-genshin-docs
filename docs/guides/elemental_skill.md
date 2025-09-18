@@ -1,17 +1,17 @@
 # Defining an Elemental Skill for an Active Self power
 
-**Origins: Genshin** only supports creating an Elemental Skill out of the [Active Self (Power Type)](../power_types/active_self.md). This is because in the [actual game](https://genshin-impact.fandom.com/wiki/Elemental_Skill), you can only use these when clicking `E` (or whatever key you binded it to)!
+**Origins: Genshin** only supports creating an Elemental Skill out of the [Active Self (Power Type)](../types/power_types/active_self.md). This is because in the [actual game](https://genshin-impact.fandom.com/wiki/Elemental_Skill), you can only use these when clicking `E` (or whatever key you binded it to)!
 
 An Elemental Skill, in Genshin, is one of your character's "active" abilities/talents. You may know this as just "Skill" in other games.
 
 ## Tutorial
 
-**Important:** this example guides you through defining an Elemental Skill for the [Active Self (Power Type)](../power_types/active_self.md), as well as specific use cases that could be helpful in the future. It is required for you to have read and understood [Defining a Power in JSON](https://origins.readthedocs.io/en/latest/guides/data/define_power/) first, as well as looked through [Active Self (Power Type)](https://origins.readthedocs.io/en/latest/types/power_types/active_self/)!
+**Important:** this example guides you through defining an Elemental Skill for the [Active Self (Power Type)](../types/power_types/active_self.md), as well as specific use cases that could be helpful in the future. It is required for you to have read and understood [Defining a Power in JSON](https://origins.readthedocs.io/en/latest/guides/data/define_power/) first, as well as looked through [Active Self (Power Type)](https://origins.readthedocs.io/en/latest/types/power_types/active_self/)!
 
 !!! tip
-	Declaring an [Elemental Skill](../data_types/elemental_skill.md) is similar to declaring an [Elemental Burst](../data_types/elemental_burst.md)! If you have read that page, then you may skip to [Displaying charges](#displaying_charges). Of course, you may choose to read or skim the content here as well.
+	Declaring an [Elemental Skill](../types/data_types/elemental_skill.md) is similar to declaring an [Elemental Burst](../types/data_types/elemental_burst.md)! If you have read that page, then you may skip to [Displaying charges](#displaying-charges). Of course, you may choose to read or skim the content here as well.
 
-To declare an [Active Self (Power Type)](../power_types/active_self.md) power as an [Elemental Skill](../data_types/elemental_skill.md), just add the `"elemental_skill"` field.
+To declare an [Active Self (Power Type)](../types/power_types/active_self.md) power as an [Elemental Skill](../types/data_types/elemental_skill.md), just add the `"elemental_skill"` field.
 
 Let's create a power named `cool_power.json` inside the `<namespace>/powers` folder. The `<namespace>` part is basically the namespace of your datapack (the ID that specifies your datapack from others). Since this is a tutorial, I'll use `tutorial`, however you may use any namespace you want. The full path for this power for me would be `data/tutorial/powers/cool_power.json`.
 
@@ -423,7 +423,7 @@ To declare an amount of charges, we can use the `charges` field. Since we want t
 ```
 
 !!!note
-	Here, we also used the `charge_render` field. It is an *optional* field, and it also dictates how charges are rendered. The default way is `"SPLIT"`, meaning to split the cooldown evenly to the charges. The other method is `"CONDITIONAL"`, where the specified amount of charges is shown when a specific condition is `true`. You can find more information on **Charge Render Methods** [here](../data_types/charge_render_method.md)
+	Here, we also used the `charge_render` field. It is an *optional* field, and it also dictates how charges are rendered. The default way is `"SPLIT"`, meaning to split the cooldown evenly to the charges. The other method is `"CONDITIONAL"`, where the specified amount of charges is shown when a specific condition is `true`. You can find more information on **Charge Render Methods** [here](../types/data_types/charge_render_method.md)
 
 When you load it up in game, it does show as `2` charges. However, when you use the skill, you may see that the charges are being added immediately! This is because it's using the power's cooldown value, which is `5`. Let's make the Elemental Skill use our `"cooldown"` sub-power instead. Here, we don't need to set `reverse` to `true`, because our cooldown goes from `0` to `max`.
 

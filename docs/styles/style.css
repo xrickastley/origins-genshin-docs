@@ -1,7 +1,68 @@
+@font-face {
+	font-family: "Genshin";
+	src: url("genshin.ttf") format("truetype");
+	font-weight: 900;
+	font-display: swap;
+}
+
+.rst-content .toctree-wrapper > p.caption, h1, h2, h3, h4, h5, h6, legend {
+    margin-top: 0;
+    font-weight: 700;
+    font-family: "Genshin", Roboto Slab, ff-tisa-web-pro, Georgia, Arial, sans-serif;
+}
+
 .wy-table-responsive table td, .wy-table-responsive table th {
     white-space: normal !important;
 }
 
 .wy-table-responsive {
     overflow : visible !important;
+}
+
+.pyro {
+	color: #fda96f;
+}
+
+.hydro {
+	color: #0ae5ff;
+}
+
+.anemo {
+	color: #a7f4ce;
+}
+
+.electro {
+	color: #e2b9ff;
+}
+
+.dendro {
+	color: #b2ec2b;
+}
+
+.quicken {
+	color: #01e858;
+}
+
+.cryo {
+	color: #d0fdfe;
+}
+
+.geo {
+	color: #f3d862;
+}
+
+.physical {
+	color: #ffffff;
+}
+
+@supports selector(div:has(> video:only-child)) {
+	div:has(> video:only-child) {
+		margin: 0 0 24px;
+	}
+}
+
+@supports not selector(div:has(> video:only-child)) {
+	div {
+		margin: 0 0 24px;
+	}
 }

@@ -1,10 +1,10 @@
 # Charge Render
 
-[Data Type](../types/data_types.md)
+[Data Type](../data_types.md)
 
 An [Object](<https://origins.readthedocs.io/en/latest/types/data_types/object/>) used to define how "Charges" for an [Elemental Skill](./elemental_skill.md) should be rendered.
 
-## Fields
+### Fields
 | Field   | Type | Default    | Description |
 |---------|------|------------|-------------|
 |`type`       |[Charge Render Method](./charge_render_method.md)|`"SPLIT"`|The method to use for rendering charges. |

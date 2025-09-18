@@ -100,3 +100,7 @@ span[id*=MathJax-Span] {
 	border-radius: 4px;
 	color: rgb(200, 228, 255);
 }
+
+.rst-content a code {
+	color: #e1b489;
+}

@@ -6,17 +6,34 @@ nav:
     - Defining an Elemental Skill: guides/elemental_skill.md
   - JSON:
     - Origin JSON (Overwrite): json/origin.md
+    - Internal Cooldown Type JSON: json/internal_cooldown_type.md
+  - Elements:
+    - Elemental Combat: elements/elements.md
+    - Elemental Reactions: elements/elemental_reactions.md
+    - Internal Cooldown: elements/internal_cooldown.md
   - General Types:
     - Power Types: types/power_types.md
     - Data Types: types/data_types.md
+  - Action Types:
+    - Bi-entity Action Types: types/bientity_action_types.md
+    - Entity Action Types: types/entity_action_types.md
+  - Condition Types:
+    - Bi-entity Condition Types: types/bientity_condition_types.md
+    - Damage Condition Types: types/damage_condition_types.md
+    - Entity Condition Types: types/entity_condition_types.md
   - Miscellaneous:
     - Sprites: misc/sprites.md
+    - Commands: misc/commands.md
+    - Power: misc/power.md
 
 theme: readthedocs
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 markdown_extensions:
   - toc:
-      separator: "_"
+      separator: "-"
   - admonition
+  - mdx_math
 plugins:
   - search
   - autorefs

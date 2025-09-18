@@ -1,10 +1,10 @@
 # Color
 
-[Data Type](../types/data_types.md)
+[Data Type](../data_types.md)
 
 An [Object](<https://origins.readthedocs.io/en/latest/types/data_types/object/>) used to specify an "Elemental Burst" for a power under the [Active Self](../power_types/active_self.md) power type.
 
-## Fields
+### Fields
 | Field   | Type | Default    | Description |
 |---------|------|------------|-------------|
 |`default_icon`     |[Identifier](<https://origins.readthedocs.io/en/latest/types/data_types/identifier/>)| |The path to the file that contains the Elemental Burst icon.
