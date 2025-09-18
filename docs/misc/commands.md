@@ -6,6 +6,5 @@ Commands, also known as console commands, are advanced features activated by typ
 
 - [`/element`](./commands/element.md)
 - [`/bossbar`](./commands/bossbar.md)
-- [`/eval`](./commands/eval.md) <span style="color:#ff5555">**ALPHA**</span>
 
 ### [Origins Commands](https://origins.readthedocs.io/en/latest/misc/commands/)

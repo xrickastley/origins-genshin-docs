@@ -94,3 +94,53 @@ Queries the specified element of the specified target.
     - (e.g: `@a[limit = 1]`, `@p`, `_xRickAstley`, `b1b981b6-4081-4abe-afd8-e79269c6a339`)
 - `[element]` being the name of an element.
     - (e.g: `pyro`, `HYDRO`, `eLeCtRo`)
+
+<br>
+
+```mcfunction
+element infusion apply <target> <element> <gaugeUnits>
+element infusion apply <target> <element> <gaugeUnits> gaugeUnit [tag] [type]
+```
+
+Applies a permanent elemental infusion to the target's held item.
+
+- `<target>` being a target selector, username, or UUID; can only select one at a time.
+    - (e.g: `@a[limit = 1]`, `@p`, `_xRickAstley`, `b1b981b6-4081-4abe-afd8-e79269c6a339`)
+- `<element>` being the name of an element.
+    - (e.g: `pyro`, `HYDRO`, `eLeCtRo`)
+- `<gaugeUnits>` being a double (a decimal or whole number)
+    - (e.g: `1`, `1.5`, `4`)
+- `[tag]` being a valid [Internal Cooldown Tag](../../elements/internal_cooldown.md) string, defaults to the special `none` Internal Cooldown Tag.
+    - (e.g: `damage`, `origins-genshin:infusion`, `"Custom Infusion Tag"`, `""` (none))
+- `[type]` being a valid [Internal Cooldown Type](../../elements/internal_cooldown.md) id, defaults to `origins-genshin:default`.
+    - (e.g. `origins-genshin:default`, `origins-genshin:none`)
+
+```mcfunction
+element infusion apply <target> <element> <gaugeUnits> duration <duration> [tag] [type]
+```
+
+Applies a permanent elemental infusion to the target's held item.
+
+- `<target>` being a target selector, username, or UUID; can only select one at a time.
+    - (e.g: `@a[limit = 1]`, `@p`, `_xRickAstley`, `b1b981b6-4081-4abe-afd8-e79269c6a339`)
+- `<element>` being the name of an element.
+    - (e.g: `pyro`, `HYDRO`, `eLeCtRo`)
+- `<gaugeUnits>` being a double (a decimal or whole number)
+    - (e.g: `1`, `1.5`, `4`)
+- `<duration>` being an integer (a whole number).
+    - (e.g: `1`, `4`, `6`)
+- `[tag]` being a valid [Internal Cooldown Tag](../../elements/internal_cooldown.md) string, defaults to the special `none` Internal Cooldown Tag.
+    - (e.g: `damage`, `origins-genshin:infusion`, `"Custom Infusion Tag"`, `""` (none))
+- `[type]` being a valid [Internal Cooldown Type](../../elements/internal_cooldown.md) id, defaults to `origins-genshin:default`.
+    - (e.g. `origins-genshin:default`, `origins-genshin:none`)
+
+<br>
+
+```mcfunction
+element infusion remove <target>
+```
+
+Removes the elemental infusion from the target's held item.
+
+- `<target>` being a target selector, username, or UUID; can only select one at a time.
+    - (e.g: `@a[limit = 1]`, `@p`, `_xRickAstley`, `b1b981b6-4081-4abe-afd8-e79269c6a339`)

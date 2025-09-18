@@ -6,10 +6,6 @@ Crystallize is the [Elemental Reaction](../elemental_reactions.md) triggered whe
 
 Crystallize deals **no damage**. Instead, it generates a matching <span class="pyro">**Pyro**</span>, <span class="electro">**Electro**</span>, <span class="hydro">**Hydro**</span>, or <span class="cryo">**Cryo**</span> [Elemental Shard](#elemental-shard) in front of the entity that can be picked up to gain an Crystallize Shield of the corresponding element.
 
-*<del>NOTE: Elemental Shards are still on the TODO list, and as such, do not exist in the mod yet. You can get a Crystallize Shield by using the `/eval <target> <element>` command</del>*
-
-The newest alpha has now added a Crystallize Shard entity, meaning that Crystallize Shields now generate with the reaction!
-
 <div align="center">
 	<video width="95%" height="auto" controls>
 		<source src="../../../media/crystallize.mp4" type="video/mp4">
@@ -27,9 +23,9 @@ Elemental Shards can only be picked up by the entity that triggered Crystallize 
 
 ## Crystallize Shield
 
-When taking damage, the Crystallize Shield nullifies DMG received and prevents you from taking knockback while it still has *health* left. Once it expires or is broken, you will receive DMG and knockback normally again.
+When you are about to take damage, the incoming damage is **absorbed** by the Crystallize Shield so long as it has *health* left. When incoming damage is **absorbed** by the Crystallize Shield, you will not take damage knockback, Once the Crystallize Shield expires or is broken, you will receive DMG and knockback normally again.
 
-If a Crystallize shield doesn't have enough health to nullify the DMG received, the excess DMG left is dealt to you. Excess DMG wil **not** apply knockback.
+If a Crystallize shield doesn't have enough health to **fully absorb** the damage received, the excess damage left is dealt to you. Excess damage wil **not** apply knockback.
 
 Shields made from the other elements (<span class="pyro">**Pyro**</span>, <span class="hydro">**Hydro**</span>, <span class="electro">**Electro**</span>, etc.) all have **250%** "effectiveness" against DMG from their corresponding element.
 
@@ -59,7 +55,7 @@ The Crystallize Shield **does not** apply it's effectiveness on the excess DMG.
 
 ### Internal Data
 
-Reaction Multiplier (Crystallize Shield Health): **6**  
+Reaction Multiplier (Crystallize Shield Health): **1**  
 Reaction ID(s): 
 
 - `origins-genshin:crystallize_pyro` (triggered on the <span class="pyro">**Pyro**</span> aura)
