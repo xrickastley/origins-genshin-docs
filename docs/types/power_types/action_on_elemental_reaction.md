@@ -8,10 +8,13 @@ title: Action on Elemental Reaction (Power Type)
 
 Executes an [Entity Action Type](../entity_action_types.md) or [Bi-entity Action Type](../bientity_action_types.md) when an Elemental Reaction is triggered on the entity.
 
-Type ID: `origin-genshin:action_on_elemental_reaction`
+Type IDs: `seven-elements:action_on_elemental_reaction`, `origins-genshin:action_on_elemental_reaction`
 
 !!! warning
-	This action type will only trigger on **living** entities.
+	This power type will only exist if [Seven Elements](https://modrinth.com/mod/seven-elements) is installed.
+
+!!! warning
+	This power type will only trigger on **living** entities.
 
 ### Fields
 | Field				| Type | Default | Description
@@ -24,14 +27,14 @@ Type ID: `origin-genshin:action_on_elemental_reaction`
 ### Examples
 ```json
 {
-	"type": "origins-genshin:action_on_elemental_reaction",
-	"reactions": "origins-genshin:overloaded",
+	"type": "seven-elements:action_on_elemental_reaction",
+	"reactions": "seven-elements:overloaded",
 	"bientity_action": {
 		"type": "origins:heal",
 		"duration": 3,
 	},
 	"bientity_action": {
-		"type": "origins-genshin:elemental_damage",
+		"type": "seven-elements:elemental_damage",
 		"amount": 10,
 		"damage_type": "minecraft:player_attack",
 		"element": {
@@ -40,7 +43,7 @@ Type ID: `origin-genshin:action_on_elemental_reaction`
 		},
 		"internal_cooldown": {
 			"tag": "origins-genshin:overloaded_counter",
-			"type": "origins-genshin:none"
+			"type": "seven-elements:none"
 		}
 	},
 	"always_trigger": true
@@ -48,4 +51,4 @@ Type ID: `origin-genshin:action_on_elemental_reaction`
 ```
 This example will heal the entity for 1.5 hearts every time the <span style="color: #fc7fa4">**Overloaded**</span> reaction is triggered on them.
 
-If <span style="color: #fc7fa4">**Overloaded**</span> was triggered by another entity, a "counter" is done on them, dealing <span class="cryo">**10 Cryo DMG**</span> and applies 2 [gauge units](../../elements/elements.md#elemental-gauge-theory) of <span class="cryo">**Cryo**</span> to them.
+If <span style="color: #fc7fa4">**Overloaded**</span> was triggered by another entity, a "counter" is done on them, dealing <span class="cryo">**10 Cryo DMG**</span> and applies 2 [gauge units ↗](https://xrickastley.github.io/SevenElements/wiki/guide/elements/elemental_gauge_theory) of <span class="cryo">**Cryo**</span> to them.

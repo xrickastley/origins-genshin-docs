@@ -6,11 +6,9 @@ nav:
     - Defining an Elemental Skill: guides/elemental_skill.md
   - JSON:
     - Origin JSON (Overwrite): json/origin.md
-    - Internal Cooldown Type JSON: json/internal_cooldown_type.md
   - Elements:
-    - Elemental Combat: elements/elements.md
-    - Elemental Reactions: elements/elemental_reactions.md
-    - Internal Cooldown: elements/internal_cooldown.md
+    - Seven Elements Docs ↗: https://xrickastley.github.io/SevenElements/wiki/guide
+    - Porting Changes: elements/porting_changes.md
   - General Types:
     - Power Types: types/power_types.md
     - Data Types: types/data_types.md
@@ -23,7 +21,6 @@ nav:
     - Entity Condition Types: types/entity_condition_types.md
   - Miscellaneous:
     - Sprites: misc/sprites.md
-    - Commands: misc/commands.md
     - Power: misc/power.md
 
 theme: readthedocs

@@ -7,6 +7,7 @@ Power Types are what grants functionality to your origins! Each power has a type
 
 ### Action-related
 - [Action on Element Applied](./power_types/action_on_element_applied.md)
+- [Action on Element Reapplied](./power_types/action_on_element_reapplied.md)
 - [Action on Element Refreshed](./power_types/action_on_element_refreshed.md)
 - [Action on Element Removed](./power_types/action_on_element_removed.md)
 - [Action on Elemental Reaction](./power_types/action_on_elemental_reaction.md)

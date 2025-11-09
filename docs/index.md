@@ -1,8 +1,8 @@
 # Welcome to the Origins: Genshin Documentation!
 
-Tired of your standard Hud Render cooldowns? Wish you could have a cooler and nicer way to see your origin power cooldowns? Want to play with a neat Elemental Combat system? Well, look no further.
+Tired of your standard Hud Render cooldowns? Wish you could have a cooler and nicer way to see your origin power cooldowns? Want to play with a neat Elemental Combat system through [Seven Elements](https://modrinth.com/mod/seven-elements)? Well, look no further.
 
-Origins: Genshin is a Origin addon developed for Fabric. It adds Genshin-styled rendering for your Origin powers, as well as a close recreation of Genshin's Elemental Combat system!
+Origins: Genshin is a Origin addon developed for Fabric. It adds Genshin-styled rendering for your Origin powers, as well as a compatibility layer between Origins and [Seven Elements](https://modrinth.com/mod/seven-elements)!
 
 This documentation should contain all the information you need for using the Origins: Genshin mod.
 
@@ -17,9 +17,3 @@ Modrinth link: [https://modrinth.com/mod/origins-genshin](https://modrinth.com/m
 
 Origins Mod: [CurseForge](https://www.curseforge.com/minecraft/mc-mods/origins) or [Modrinth](https://modrinth.com/mod/origins)  
 [Origins Documentation](https://origins.readthedocs.io/en/latest/)
-
-## Psst!
-
-Something **big** is coming to **Origins: Genshin**!
-
-Want a sneak peek? You can look over [here](https://origins-genshin.readthedocs.io/en/2.0.0-alpha/)!

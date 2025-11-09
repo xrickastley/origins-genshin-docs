@@ -8,7 +8,7 @@ title: Has Element (Entity Condition Type)
 
 Checks if the entity has the specified [Element](../data_types/element.md).
 
-Type ID: `origins-genshin:has_element`
+Type IDs: `seven-elements:has_element`, `origins-genshin:has_element`
 
 ### Fields
 
@@ -20,7 +20,7 @@ Type ID: `origins-genshin:has_element`
 
 ```json
 "entity_condition": {
-	"type": "origins-genshin:has_element",
+	"type": "seven-elements:has_element",
 	"element": "HYDRO"
 }
 ```
@@ -29,7 +29,7 @@ This example checks if the entity has the <span class="hydro">**Hydro**</span> e
 
 ```json
 "entity_condition": {
-	"type": "origins-genshin:has_element",
+	"type": "seven-elements:has_element",
 	"element": [
 		"PYRO",
 		"CRYO"

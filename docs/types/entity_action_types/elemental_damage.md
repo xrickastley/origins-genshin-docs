@@ -8,7 +8,7 @@ title: Elemental Damage (Entity Action Type)
 
 Applies damage to an entity.
 
-Type ID: `origins-genshin:elemental_damage`
+Type IDs: `seven-elements:elemental_damage`, `origins-genshin:elemental_damage`
 
 !!! info
     The max health of the entity will be used as the base value for the modifier(s).
@@ -32,7 +32,7 @@ Type ID: `origins-genshin:elemental_damage`
 
 ```json
 "entity_action": {
-    "type": "origins-genshin:elemental_damage",
+    "type": "seven-elements:elemental_damage",
     "amount": 4,
     "damage_type": "minecraft:on_fire",
 	"element": {
@@ -47,4 +47,4 @@ Type ID: `origins-genshin:elemental_damage`
 
 This example will deal 2 hearts of `on_fire` damage, which by its tags in vanilla is considered fire damage and bypasses armor.
 
-This also applies 1 [gauge unit](../../elements/elements.md#elemental-gauge-theory) of <span class="pyro">**Pyro**</span>, so long as the [Internal Cooldown](../../elements/internal_cooldown.md) with the tag: `origins-genshin:fire_ability` and type: `origins-genshin:default` is inactive.
+This also applies 1 [gauge unit ↗](https://xrickastley.github.io/SevenElements/wiki/guide/elements/elemental_gauge_theory) of <span class="pyro">**Pyro**</span>, so long as the [Internal Cooldown ↗](https://xrickastley.github.io/SevenElements/wiki/guide/elements/internal_cooldown) with the tag: `origins-genshin:fire_ability` and type: `seven-elements:default` is inactive.

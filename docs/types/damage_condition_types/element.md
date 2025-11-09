@@ -8,7 +8,7 @@ title: Element (Damage Condition Type)
 
 Checks if the provided `DamageSource` has the specified [Element](../data_types/element.md).
 
-Type ID: `origins-genshin:element`
+Type IDs: `seven-elements:element`, `origins-genshin:element`
 
 ### Fields
 
@@ -20,7 +20,7 @@ Type ID: `origins-genshin:element`
 
 ```json
 "damage_condition": {
-	"type": "origins-genshin:element",
+	"type": "seven-elements:element",
 	"element": "HYDRO"
 }
 ```
@@ -29,7 +29,7 @@ This example checks if the damage is of the <span class="hydro">**Hydro**</span>
 
 ```json
 "damage_condition": {
-	"type": "origins-genshin:element",
+	"type": "seven-elements:element",
 	"element": [
 		"PYRO",
 		"CRYO"

@@ -8,8 +8,7 @@ title: Elemental Damage (Bi-entity Action Type)
 
 Applies elemental damage to the target entity as if the actor entity has attacked it.
 
-Type ID: `origins-genshin:elemental_damage`
-
+Type IDs: `seven-elements:elemental_damage`, `origins-genshin:elemental_damage`
 
 !!! info
 	The max health of the target entity will be used as the base value for the modifier(s).
@@ -33,7 +32,7 @@ Type ID: `origins-genshin:elemental_damage`
 
 ```json
 "bientity_action": {
-	"type": "origins-genshin:elemental_damage",
+	"type": "seven-elements:elemental_damage",
 	"amount": 10,
 	"damage_type": "minecraft:cramming",
 	"element": {
@@ -48,7 +47,7 @@ Type ID: `origins-genshin:elemental_damage`
 
 This example will deal 5 hearts of `cramming` damage to the target as if the actor has hit them, and that, if killed, will display a *"`<targetName>` was squashed by `<actorName>`",* where `<targetName>` is the name of the target and `<actorName>` is the name of the actor.
 
-This also applies 1 [gauge unit](../../elements/elements.md#elemental-gauge-theory) of <span class="pyro">**Pyro**</span> to the target, so long as the [Internal Cooldown](../../elements/internal_cooldown.md) with the tag: `origins-genshin:crammed` and type: `origins-genshin:default` is inactive.
+This also applies 1 [gauge unit ↗](https://xrickastley.github.io/SevenElements/wiki/guide/elements/elemental_gauge_theory) of <span class="pyro">**Pyro**</span> to the target, so long as the [Internal Cooldown ↗](https://xrickastley.github.io/SevenElements/wiki/guide/elements/internal_cooldown) with the tag: `origins-genshin:crammed` and type: `seven-elements:default` is inactive.
 
 <br>
 
@@ -72,7 +71,7 @@ This also applies 1 [gauge unit](../../elements/elements.md#elemental-gauge-theo
 
 This example will deal 25% `generic` damage to the target entity. If the max health of the target entity is 20, this will deal 5 (2 and a half hearts of) `generic` damage (`20 * 0.25 = 5`.)
 
-This also applies 2 [gauge units](../../elements/elements.md#elemental-gauge-theory) of <span class="hydro">**Hydro**</span> to the target, so long as the [Internal Cooldown](../../elements/internal_cooldown.md) with the tag: `origins-genshin:execute` and type: `origins-genshin:default` is inactive.
+This also applies 2 [gauge units ↗](https://xrickastley.github.io/SevenElements/wiki/guide/elements/elemental_gauge_theory) of <span class="hydro">**Hydro**</span> to the target, so long as the [Internal Cooldown ↗](https://xrickastley.github.io/SevenElements/wiki/guide/elements/internal_cooldown) with the tag: `origins-genshin:execute` and type: `seven-elements:default` is inactive.
 
 <br>
 
@@ -91,11 +90,11 @@ This also applies 2 [gauge units](../../elements/elements.md#elemental-gauge-the
 	},
 	"internal_cooldown": {
 		"tag": "origins-genshin:magical_hit",
-		"type": "origins-genshin:none"
+		"type": "seven-elements:none"
 	}
 }
 ```
 
 This example will deal `minecraft:magic` damage to the target entity, with its damage value depending on the value of the `example:magic_damage` (`data/example/powers/magic_damage.json`) power from the actor entity.
 
-This also *always* applies 2 [gauge units](../../elements/elements.md#elemental-gauge-theory) of <span class="hydro">**Hydro**</span> to the target as the [Internal Cooldown](../../elements/internal_cooldown.md)'s type: `origins-genshin:none` is always inactive.
+This also *always* applies 2 [gauge units ↗](https://xrickastley.github.io/SevenElements/wiki/guide/elements/elemental_gauge_theory) of <span class="hydro">**Hydro**</span> to the target as the [Internal Cooldown ↗](https://xrickastley.github.io/SevenElements/wiki/guide/elements/internal_cooldown)'s type: `seven-elements:none` is always inactive.

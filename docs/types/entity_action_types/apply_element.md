@@ -8,7 +8,7 @@ title: Apply Element (Bi-entity Action Type)
 
 Applies an element to this entity.
 
-Type ID: `origins-genshin:apply_element`
+Type IDs: `seven-elements:apply_element`, `origins-genshin:apply_element`
 
 ### Fields
 
@@ -21,7 +21,7 @@ Type ID: `origins-genshin:apply_element`
 
 ```json
 "entity_action": {
-    "type": "origins-genshin:apply_element",
+    "type": "seven-elements:apply_element",
 	"element": {
 		"element": "HYDRO",
 		"gauge_units": 2.0
@@ -32,4 +32,4 @@ Type ID: `origins-genshin:apply_element`
 }
 ```
 
-This example will apply 2 [gauge units](../../elements/elements.md#elemental-gauge-theory) of <span class="pyro">**Pyro**</span>, so long as the [Internal Cooldown](../../elements/internal_cooldown.md) with the tag: `origins-genshin:self_application` and type: `origins-genshin:default` is inactive.
+This example will apply 2 [gauge units ↗](https://xrickastley.github.io/SevenElements/wiki/guide/elements/elemental_gauge_theory) of <span class="pyro">**Pyro**</span>, so long as the [Internal Cooldown ↗](https://xrickastley.github.io/SevenElements/wiki/guide/elements/internal_cooldown) with the tag: `origins-genshin:self_application` and type: `seven-elements:default` is inactive.

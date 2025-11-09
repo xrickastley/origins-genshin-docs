@@ -8,10 +8,13 @@ title: Action on Element Removed (Power Type)
 
 Executes an [Entity Action Type](../entity_action_types.md) when an element is removed from the entity.
 
-Type ID: `origin-genshin:action_on_element_removed`
+Type IDs: `seven-elements:action_on_element_removed`, `origins-genshin:action_on_element_removed`
 
 !!! warning
-	This action type will only trigger on **living** entities.
+	This power type will only exist if [Seven Elements](https://modrinth.com/mod/seven-elements) is installed.
+
+!!! warning
+	This power type will only trigger on **living** entities.
 
 ### Fields
 | Field				| Type | Default | Description

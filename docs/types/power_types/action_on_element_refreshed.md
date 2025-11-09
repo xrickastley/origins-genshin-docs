@@ -8,10 +8,17 @@ title: Action on Element Refreshed (Power Type)
 
 Executes an [Entity Action Type](../entity_action_types.md) when an entity's Elemental Application is refreshed.
 
-Type ID: `origin-genshin:action_on_element_refreshed`
+An element is "refreshed" when its Elemental Application is replaced with another Elemental Application of the same element entirely.
+
+It is recommended to use [Action on Element Reapplied (Power Type)](./action_on_element_reapplied.md) over this power type for *most* use cases.
+
+Type IDs: `seven-elements:action_on_element_refreshed`, `origins-genshin:action_on_element_refreshed`
 
 !!! warning
-	This action type will only trigger on **living** entities.
+	This power type will only exist if [Seven Elements](https://modrinth.com/mod/seven-elements) is installed.
+
+!!! warning
+	This power type will only trigger on **living** entities.
 
 ### Fields
 | Field				| Type | Default | Description

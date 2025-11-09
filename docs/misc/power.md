@@ -28,7 +28,7 @@ To easily get started with the Elemental Combat system, you can use this power, 
 	},
 
 	"pyro_infusion": {
-		"type": "origins-genshin:elemental_infusion",
+		"type": "seven-elements:elemental_infusion",
 		"condition": {
 			"type": "apoli:resource",
 			"resource": "*:*_cycle",
@@ -41,14 +41,14 @@ To easily get started with the Elemental Combat system, you can use this power, 
 			"gauge_units": 2.0
 		},
 		"internal_cooldown": {
-			"tag": "origins-genshin:attune/normal_attack",
-			"type": "origins-genshin:default"
+			"tag": "seven-elements:attune/normal_attack",
+			"type": "seven-elements:default"
 		},
 		"priority": 1
 	},
 
 	"hydro_infusion": {
-		"type": "origins-genshin:elemental_infusion",
+		"type": "seven-elements:elemental_infusion",
 		"condition": {
 			"type": "apoli:resource",
 			"resource": "*:*_cycle",
@@ -61,14 +61,14 @@ To easily get started with the Elemental Combat system, you can use this power, 
 			"gauge_units": 2.0
 		},
 		"internal_cooldown": {
-			"tag": "origins-genshin:attune/normal_attack",
-			"type": "origins-genshin:default"
+			"tag": "seven-elements:attune/normal_attack",
+			"type": "seven-elements:default"
 		},
 		"priority": 1
 	},
 
 	"anemo_infusion": {
-		"type": "origins-genshin:elemental_infusion",
+		"type": "seven-elements:elemental_infusion",
 		"condition": {
 			"type": "apoli:resource",
 			"resource": "*:*_cycle",
@@ -81,14 +81,14 @@ To easily get started with the Elemental Combat system, you can use this power, 
 			"gauge_units": 2.0
 		},
 		"internal_cooldown": {
-			"tag": "origins-genshin:attune/normal_attack",
-			"type": "origins-genshin:default"
+			"tag": "seven-elements:attune/normal_attack",
+			"type": "seven-elements:default"
 		},
 		"priority": 1
 	},
 
 	"electro_infusion": {
-		"type": "origins-genshin:elemental_infusion",
+		"type": "seven-elements:elemental_infusion",
 		"condition": {
 			"type": "apoli:resource",
 			"resource": "*:*_cycle",
@@ -101,14 +101,14 @@ To easily get started with the Elemental Combat system, you can use this power, 
 			"gauge_units": 2.0
 		},
 		"internal_cooldown": {
-			"tag": "origins-genshin:attune/normal_attack",
-			"type": "origins-genshin:default"
+			"tag": "seven-elements:attune/normal_attack",
+			"type": "seven-elements:default"
 		},
 		"priority": 1
 	},
 
 	"dendro_infusion": {
-		"type": "origins-genshin:elemental_infusion",
+		"type": "seven-elements:elemental_infusion",
 		"condition": {
 			"type": "apoli:resource",
 			"resource": "*:*_cycle",
@@ -121,14 +121,14 @@ To easily get started with the Elemental Combat system, you can use this power, 
 			"gauge_units": 2.0
 		},
 		"internal_cooldown": {
-			"tag": "origins-genshin:attune/normal_attack",
-			"type": "origins-genshin:default"
+			"tag": "seven-elements:attune/normal_attack",
+			"type": "seven-elements:default"
 		},
 		"priority": 1
 	},
 
 	"cryo_infusion": {
-		"type": "origins-genshin:elemental_infusion",
+		"type": "seven-elements:elemental_infusion",
 		"condition": {
 			"type": "apoli:resource",
 			"resource": "*:*_cycle",
@@ -141,14 +141,14 @@ To easily get started with the Elemental Combat system, you can use this power, 
 			"gauge_units": 2.0
 		},
 		"internal_cooldown": {
-			"tag": "origins-genshin:attune/normal_attack",
-			"type": "origins-genshin:default"
+			"tag": "seven-elements:attune/normal_attack",
+			"type": "seven-elements:default"
 		},
 		"priority": 1
 	},
 
 	"geo_infusion": {
-		"type": "origins-genshin:elemental_infusion",
+		"type": "seven-elements:elemental_infusion",
 		"condition": {
 			"type": "apoli:resource",
 			"resource": "*:*_cycle",
@@ -161,8 +161,8 @@ To easily get started with the Elemental Combat system, you can use this power, 
 			"gauge_units": 2.0
 		},
 		"internal_cooldown": {
-			"tag": "origins-genshin:attune/normal_attack",
-			"type": "origins-genshin:default"
+			"tag": "seven-elements:attune/normal_attack",
+			"type": "seven-elements:default"
 		},
 		"priority": 1
 	},
