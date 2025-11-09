@@ -7,7 +7,7 @@ Executes an [Entity Action Type](https://origins.readthedocs.io/en/latest/types/
 Type ID: `origins:active_self`
 
 !!! warning 
-    This JSON object is originally an **Origins/Apoli** JSON field, but has been modified by **Origins: Genshin** to add extra functionality to it. You can find the new fields added along with the old fields below.
+    This JSON object is originally an **Origins/Apoli** Power Type, but has been modified by **Origins: Genshin** to add extra functionality to it. You can find the new fields added along with the old fields below.
 
 ### Fields
 | Field   | Type | Default    | Description |

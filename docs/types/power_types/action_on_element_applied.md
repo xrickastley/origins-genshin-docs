@@ -8,7 +8,10 @@ title: Action on Element Applied (Power Type)
 
 Executes an [Entity Action Type](../entity_action_types.md) when an element is applied to the entity.
 
-Type ID: `origin-genshin:action_on_element_applied`
+Type ID: `origins:action_on_element_applied`
+
+!!! warning
+	This action type is not intended to be with the Origins/Apoli namespace, and is fixed on **Origins: Genshin v3.0.0**
 
 !!! warning
 	This action type will only trigger on **living** entities.

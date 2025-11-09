@@ -8,7 +8,10 @@ title: Action on Element Removed (Power Type)
 
 Executes an [Entity Action Type](../entity_action_types.md) when an element is removed from the entity.
 
-Type ID: `origin-genshin:action_on_element_removed`
+Type ID: `origins:action_on_element_removed`
+
+!!! warning
+	This action type is not intended to be with the Origins/Apoli namespace, and is fixed on **Origins: Genshin v3.0.0**
 
 !!! warning
 	This action type will only trigger on **living** entities.

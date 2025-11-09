@@ -8,7 +8,7 @@ title: Elemental Infusion (Power Type)
 
 Creates an Elemental Infusion on the entity, infusing each attack from them with the specified Elemental Application.
 
-Type ID: `origin-genshin:elemental_infusion`
+Type ID: `origins-genshin:elemental_infusion`
 
 ### Fields
 | Field				| Type | Default | Description
